@@ -1,5 +1,6 @@
 import './App.css';
 import { Child, ChildFC } from './components/Child';
+import EventComponent from './events/EventComponent';
 import GuestList from './state/GuestList';
 import UserSearch from './state/UserSearch';
 
@@ -15,6 +16,8 @@ function App() {
       <ChildFC textColor={'red'} onClick={handleClick} />
       <GuestList />
       <UserSearch />
+
+      <EventComponent />
     </>
   );
 }

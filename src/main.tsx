@@ -7,7 +7,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
-    path: '/vite-ts-template-gh/',
+    path: '/react-ts-project/',
     element: <App />,
   },
 ]);
