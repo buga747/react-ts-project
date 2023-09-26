@@ -20,6 +20,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
+  "rules": { "@typescript-eslint/no-explicit-any": "off" },
+
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
